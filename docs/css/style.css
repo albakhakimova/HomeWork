@@ -1,0 +1,319 @@
+body {
+font-family: 'Manrope', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.logo {
+
+}
+
+.button {
+    font-size: 18px;
+    line-height: 175%;
+    font-weight: 600;
+    padding: 16px 40px;
+    color: #fff;
+    border-radius: 12px;
+    background: #FF6433;
+    transition: all .3s;
+}
+.button:hover {
+    transform: scale(1.05);
+}
+
+/* ----------------------------------------------------------------- */
+
+.header {
+    margin-bottom: 135px;
+
+}
+.header__top {
+
+}
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+}
+.header__logo {
+}
+.header__nav {
+    margin-left: auto;
+}
+.header__nav-list {
+    display: flex;
+}
+.header__nav-item {
+    margin-right: 40px;
+}
+.header__nav-item:last-child {
+    margin-right: 32px;
+}
+.header__nav-link {
+    font-weight: 600;
+    line-height: 28px;
+    color: #1E1B1B;
+    white-space: nowrap;
+    transition: all .3s;
+}
+.header__nav-link:hover {
+color: #FF6433;
+}
+
+
+.header__top-line{
+    margin-right: 32px;
+}
+.header__user-nav {
+    display: flex;
+    align-items: baseline;
+}
+
+.header__top-phone {
+    margin-right: 14px;
+}
+.header__top-number {
+display:flex;
+flex-direction:column;
+justify-content: space-between;
+}
+.header__top_call {
+    font-weight: 500;
+    line-height: 24px;
+    color: #1E1B1B;
+    white-space: nowrap;
+}
+
+.header__top_nimbers {
+    font-weight: 600;
+    line-height: 175%;
+    color: #1E1B1B;
+    white-space: nowrap;
+    transition: all .3s;
+}
+
+.header__top_nimbers:hover {
+    color: #FF6433;
+    }
+
+    /* --------------------------------------------------------------------- */
+
+    .header__body-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__content {
+        margin-right: 30px;
+    }
+    .header__title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 84px;
+        letter-spacing: -0.03em;
+        color: #1E1B1B;
+        max-width: 625px;
+        margin-bottom: 32px;
+    }
+    .header__content-box {
+        display: flex;
+        align-items: center;
+        margin-bottom: 64px;
+    }
+    .header__content-btn {
+        margin-right: 33px;
+    }
+    .header__play {
+        display: flex;
+        align-items: center;
+    }
+    .header__play svg {
+        margin-right: 8px;
+        border-radius: 50%;
+        transition: all .3s;
+    }
+    .header__play:hover svg {
+        box-shadow: 0 0 0 9px rgba(23, 23, 23, 0.12);
+
+    }
+    .header__content-schedule {
+        display: flex;
+        align-items: center;
+    }
+    .header__content-watch {
+        margin-right: 14px;
+    }
+    .header__content-open {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #939191;
+    }
+    .header__content-time {
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+    .header__content-week {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 175%;
+        color: #1E1B1B;
+    }
+
+    /* ------------------------------------------------------- */
+
+    .header_img {
+        position: relative;
+    }
+    .header__bg {
+    }
+    .header__service {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        border-radius: 59px;
+        max-height: 102px;
+        /* width: 282px; */
+        padding: 15px;
+        box-shadow: 0 0 0px 13px #dddbdb5a;
+        position: absolute;
+        top: 81px;
+        left: -30px;
+    }
+    .header__service-circle {
+        background-color: #5CBA99;
+        color: #fff;
+        padding: 17px 12px;
+        border-radius: 50%;
+        margin-right: 15px;
+
+    }
+    .header__service-number {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.03em;
+    }
+    .header__service-desc {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .header__service-text {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.03em;
+        color: #1E1B1B;
+        margin-right: 30px;
+    }
+
+    /* ------------------------- */
+    .header__ratings {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        max-height: 102px;
+        padding: 24px 38px;
+        position: absolute;
+        top: 460px;
+        left: 302px;
+        border-radius: 59px;
+        box-shadow: 0 0 0px 13px #dddbdb5a;
+    }
+    .header__rating {
+        margin-right: 15px;
+        color: #000000;
+    }
+    .header__rating-number {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.03em;
+    }
+    .header__raiting-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        opacity: 0.7;
+    }
+    .stars {
+        margin-right: 15px;
+    }
+
+    /* ------------------------------------------------------------ */
+
+    .offer {
+        background-color: #F2F2F2;
+        color: #1E1B1B;
+        padding: 128px 0 192px;
+    }
+    .container {
+    }
+    .offer__inner {
+    }
+    .offer__content {
+        text-align: center;
+        padding-bottom: 64px;
+    }
+    .text {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.03em;
+    }
+    .offer__content-subtitle {
+        max-width: 860px;
+        margin: 0 auto;
+    }
+    .subtitle {
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 76px;
+        letter-spacing: -0.03em;
+    }
+    .offer__services {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 6px;
+    }
+    .offer__box {
+        width: 316px;
+        height: 232px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all .3s
+    }
+    .offer__box:hover {
+        background-color: #FF6433;
+        color: #fff;
+        stroke: #fff;
+        fill: #fff;
+    }
+
+    .offer__box-image {
+        margin-bottom: 16px;
+    }
+
+    .offer__box-text {
+    }
